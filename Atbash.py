@@ -28,10 +28,10 @@ for line in new_text:
         else:
             decode_str += c
     decode_text += decode_str
-f4 = open('textDecodeAtbash.txt', 'w')
-f4.write(decode_text)
+f3 = open('textDecodeAtbash.txt', 'w')
+f3.write(decode_text)
 f1.close()
 f2.close()
-f4.close()
+f3.close()
 
     
